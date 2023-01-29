@@ -1,4 +1,4 @@
-import Navigation from "./Components/Navigation";
+import NavBar from "./Components/NavBar";
 import Header from "./Components/Header";
 import MainContent from "./Components/MainContent";
 import Footer from "./Components/Footer";
@@ -7,7 +7,7 @@ export default function App() {
 
   return (
     <main>
-      <Navigation />
+      <NavBar />
       <Header />
       <MainContent />
       <Footer />

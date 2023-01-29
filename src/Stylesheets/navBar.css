@@ -1,12 +1,94 @@
 nav {
     width: 100%;
-    padding: 0.7rem;
-    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: capitalize;
+    position: absolute;
 }
 
-.logo__hamm__container {
+#nav__container {
     display: flex;
-justify-content: space-between;
-align-items: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.8rem;
     width: 100%;
+}
+
+#logo__hamm__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#logo__hamm__container img {
+    width: 110px;
+    height: auto;
+    cursor: pointer;
+}
+
+#navigation__unordered_list {
+    display: block;
+    padding: 1rem;
+    list-style: none;
+    color: #fff;
+    font-size: 0.95rem;
+    align-self: flex-start;
+}
+
+#navigation__unordered_list li {
+    margin: 0.5rem 0;
+    width: fit-content;
+}
+
+@media screen and (min-width: 768px) {
+    #hamm__btn {
+        display: none;
+    }
+
+    #nav__container {
+        flex-direction: row;
+        align-items: center;
+        width: 85%;
+        border-bottom: 1px solid #fff;
+    }
+
+    #logo__hamm__container {
+        width: auto;
+    }
+
+    #navigation__unordered_list {
+        display: flex;
+        margin: 0rem 4rem;
+        list-style: none;
+        color: #f0f0f0;
+        font-size: 1rem;
+        align-self: auto;
+    }
+
+    #navigation__unordered_list li {
+        margin: 0rem 0.7rem;
+        width: fit-content;
+        transition: all 0.4s linear;
+    }
+
+    .active {
+        border-bottom:2px solid #d6d6d6;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #nav__container {
+        width: 80%;
+    }
+
+    #navigation__unordered_list {
+        margin: 0rem 9rem;
+    }
+
+    #logo__hamm__container img {
+        width: 130px;
+        height: auto;
+    }
 }
