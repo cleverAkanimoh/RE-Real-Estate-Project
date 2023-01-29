@@ -6,7 +6,7 @@ header {
     align-items: center;
     padding: 0 0.5rem;
     color: #fff;
-    background: linear-gradient(-90deg,#0000001a, #00000081), url(./sa);
+    background: linear-gradient(-90deg,#0000001a, #00000081), url(./sands_design.jpeg) no-repeat center/cover;
 }
 
 #map__filter__div {
@@ -16,4 +16,10 @@ header {
 #heading__text {
     text-transform: capitalize;
     font: 700 1.8rem/1.5 'georgia',sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+    #map__filter__div {
+        display: block;
+    }
 }

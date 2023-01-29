@@ -70,7 +70,6 @@ nav {
     #navigation__unordered_list li {
         margin: 0rem 0.7rem;
         width: fit-content;
-        transition: all 0.4s linear;
     }
 
     .active {
