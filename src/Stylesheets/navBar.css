@@ -5,6 +5,7 @@ nav {
     justify-content: center;
     text-transform: capitalize;
     position: absolute;
+    z-index: 10;
 }
 
 #nav__container {
@@ -39,19 +40,22 @@ nav {
 
 #navigation__unordered_list li {
     margin: 0.5rem 0;
+    font-weight: 300;
     width: fit-content;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 650px) {
     #hamm__btn {
         display: none;
     }
 
     #nav__container {
+        padding: 0.5rem 0 0 0.4rem;
         flex-direction: row;
         align-items: center;
-        width: 85%;
-        border-bottom: 1px solid #fff;
+        justify-content: space-between;
+        width: 600px;
+        border-bottom: 1px solid #dfdfdf;
     }
 
     #logo__hamm__container {
@@ -60,30 +64,49 @@ nav {
 
     #navigation__unordered_list {
         display: flex;
-        margin: 0rem 4rem;
         list-style: none;
         color: #f0f0f0;
-        font-size: 1rem;
+        font-size: 0.85rem;
         align-self: auto;
+        translate: 0 10% ;
     }
 
     #navigation__unordered_list li {
-        margin: 0rem 0.7rem;
-        width: fit-content;
+        padding: 0 0 0.5rem 0;
+        margin: 0rem 1rem -0.6rem 0;
+        width: 60px;
+        cursor: pointer;
+        display: grid;
+        place-items: center;
+    }
+
+    #navigation__unordered_list li:hover {
+        color: #6e6e85;
     }
 
     .active {
-        border-bottom:2px solid #d6d6d6;
+        border-bottom: 3px solid #d6d6d6;
+        transition: all 0.5s;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #nav__container {
+        width: 600px;
+    }
+
+    #navigation__unordered_list {
+        margin: 0rem 0 0 6rem;
     }
 }
 
 @media screen and (min-width: 1024px) {
     #nav__container {
-        width: 80%;
+        width: 900px;
     }
 
     #navigation__unordered_list {
-        margin: 0rem 9rem;
+        margin: 0rem 0 0 10rem;
     }
 
     #logo__hamm__container img {

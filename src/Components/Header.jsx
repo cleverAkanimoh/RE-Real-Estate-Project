@@ -3,7 +3,7 @@ import "../Stylesheets/header.css"
 export default function () {
    return (
       <header>
-         <h2 id="heading__text">the most affordable place to stay in san francisco bay area</h2>
+         <h2 id="heading__text">the most affordable places to stay in san francisco bay area</h2>
          <div id="map__filter__div">
             <picture>
                <img src='' alt="" />

@@ -18,7 +18,7 @@ header {
     font: 700 1.8rem/1.5 'georgia',sans-serif;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 700px) {
     #map__filter__div {
         display: block;
     }
