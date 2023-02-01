@@ -14,9 +14,9 @@ export default function () {
                 </div>
                 <ul id="navigation__unordered_list">
                     <li className='home active'>home</li>
-                    <li className='landlord active'>landlord</li>
-                    <li className='tenants active'>tenants</li>
-                    <li className='contact active'>contact us</li>
+                    <li className='landlord'>landlord</li>
+                    <li className='tenants'>tenants</li>
+                    <li className='contact'>contact us</li>
                 </ul>
             </div>
         </nav>
