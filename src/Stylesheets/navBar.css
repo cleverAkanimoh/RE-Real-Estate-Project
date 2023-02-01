@@ -55,7 +55,7 @@ nav {
 }
 
 #navigation__unordered_list li:hover {
-    color: #6e6e85;
+    color: #a6a6b4;
 }
 
 .active {
@@ -68,12 +68,12 @@ nav {
     }
 
     #nav__container {
-        padding: 0.5rem 0 0 0.4rem;
+        padding: 0.99rem 0 0 0.4rem;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
+        justify-content: flex-start;
         width: 600px;
-        border-bottom: 1px solid #dfdfdf;
+        border-bottom: 1px solid #a6a6b4;
     }
 
     #logo__hamm__container {
@@ -82,24 +82,24 @@ nav {
 
     #navigation__unordered_list {
         display: flex;
+        align-items: center;
         list-style: none;
         color: #f0f0f0;
         font-size: 0.85rem;
-        align-self: auto;
         translate: 0 10%;
     }
 
     #navigation__unordered_list li {
-        padding: 0 0 0.5rem 0;
-        margin: 0rem 1rem -0.6rem 0;
-        width: 60px;
+        padding: 0 0 0.55rem 0;
+        margin: 0rem 0.75rem -0.8rem 0;
+        width: 80px;
         display: grid;
         place-items: center;
+        transition: all 0.5s;
     }
 
     .active {
-        border-bottom: 3px solid #d6d6d6;
-        transition: all 0.5s;
+        border-bottom: 3px solid #fff;
     }
 }
 
@@ -118,9 +118,10 @@ nav {
         width: 900px;
     }
 
-    #navigation__unordered_list {
-        margin: 0rem 0 0 10rem;
-    }
+    /* #navigation__unordered_list {
+        margin: 0rem 0 0 9rem;
+        
+    } */
 
     #logo__hamm__container img {
         width: 130px;
