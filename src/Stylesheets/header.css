@@ -6,7 +6,7 @@ header {
     align-items: center;
     padding: 0 0.5rem;
     color: #fff;
-    background: linear-gradient(-90deg,#0000001a, #00000081), url(./sands_design.jpeg) no-repeat center/cover;
+    background: linear-gradient(-90deg,#0000001a, #00000081), url(../assets/header-unsplash.png) no-repeat center/cover;
 }
 
 #map__filter__div {
