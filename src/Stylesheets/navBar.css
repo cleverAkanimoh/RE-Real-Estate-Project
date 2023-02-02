@@ -5,6 +5,7 @@ nav {
     justify-content: center;
     text-transform: capitalize;
     position: absolute;
+    top: 0;
     z-index: 10;
 }
 
@@ -73,7 +74,8 @@ nav {
     }
 
     #nav__container {
-        padding: 0.99rem 0 0 0.4rem;
+        padding: 0.99rem 0.4rem;
+        margin: 0 0 10px 3px;
         flex-direction: row;
         align-items: center;
         justify-content: flex-start;
@@ -91,12 +93,12 @@ nav {
         list-style: none;
         color: #f0f0f0;
         font-size: 0.85rem;
-        translate: 10% 10%;
+        translate: 10% 20%;
     }
 
     #navigation__unordered_list li {
-        padding: 0 0 0.55rem 0;
-        margin: 0rem 0.75rem -0.8rem 0;
+        padding: 0 0 1rem 0;
+        margin: 0rem 0.75rem -1.55rem 0;
         width: 80px;
         display: grid;
         place-items: center;
@@ -125,6 +127,6 @@ nav {
     }
 
     #navigation__unordered_list {
-        translate: 50% 10%;
+        translate: 50% 22%;
     }
 }
