@@ -47,6 +47,10 @@ nav {
 #navigation__unordered_list {
     display: block;
     padding: 1rem;
+    margin-top: 5px;
+    background: #d4d4d4b9;
+    width: 100%;
+    border-radius: 0.3rem;
     list-style: none;
     color: #fff;
     font-size: 0.95rem;
@@ -65,7 +69,7 @@ nav {
 }
 
 .active {
-    color: #a6a6b4;
+    color: #757586;
 }
 
 @media screen and (min-width: 650px) {
@@ -90,6 +94,7 @@ nav {
     #navigation__unordered_list {
         display: flex;
         align-items: center;
+        background: transparent;
         list-style: none;
         color: #f0f0f0;
         font-size: 0.85rem;

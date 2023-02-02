@@ -6,7 +6,7 @@ export default function () {
    return (
       <header>
          <section id="header__section">
-            <h2 id="heading__text">the most affordable places to stay in san francisco bay area</h2>
+            <h2 id="heading__text">the most affordable places to stay in the san francisco bay area</h2>
             <div id="map__filter__div">
                <picture>
                   <img src={mapImg} alt="map image" id="map__image" />
