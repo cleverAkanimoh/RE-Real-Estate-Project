@@ -29,6 +29,27 @@ header {
     padding: 0.78rem;
     border-radius: 0.35rem;
 }
+#form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#form *:not(:last-child) {
+    margin-right: 5px;
+}
+
+#form #searchBtn{
+    display: grid;
+    place-items: center;
+    padding: 0.5rem;
+    background: #60acf8;
+}
+
+#search__icon {
+    color: #fff;
+    font-size: 20px;
+}
 
 @media screen and (min-width: 800px) {
     #heading__text {

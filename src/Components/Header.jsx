@@ -18,8 +18,8 @@ export default function () {
                   <select className="select neighborhood">
                      <option value="neighborhood">neighborhood</option>
                   </select>
-                  <button id="serachBtn">
-                     <VscSearch/>
+                  <button id="searchBtn">
+                     <VscSearch id="search__icon" />
                   </button>
                </form>
             </div>
