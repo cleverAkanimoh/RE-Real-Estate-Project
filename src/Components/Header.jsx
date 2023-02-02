@@ -8,7 +8,7 @@ export default function () {
             <h2 id="heading__text">the most affordable places to stay in san francisco bay area</h2>
             <div id="map__filter__div">
                <picture>
-                  <img src={mapImg} alt="" />
+                  <img src={mapImg} alt="map image" id="map__image" />
                </picture>
                <div id="filter__div">
                   <select>
@@ -17,7 +17,9 @@ export default function () {
                   <select>
                      <option value="neighborhood">neighborhood</option>
                   </select>
-                  <button>sea</button>
+                  <button>
+                     
+                  </button>
                </div>
             </div>
          </section>

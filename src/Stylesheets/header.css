@@ -14,17 +14,25 @@ header {
     flex-direction: column;
 }
 
+#map__image {
+    display: none;
+}
+
 #heading__text {
     text-transform: capitalize;
     font: 700 1.8rem/1.4 'georgia',sans-serif;
+}
+
+#map__filter__div {
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 0.78rem;
+    border-radius: 0.35rem;
 }
 
 @media screen and (min-width: 800px) {
     #heading__text {
         text-transform: capitalize;
         font: 600 2rem/1.4 'georgia',sans-serif;
-    }
-    #map__filter__div {
-        display: block;
     }
 }
