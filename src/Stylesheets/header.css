@@ -46,7 +46,12 @@ header {
 }
 
 .select:focus {
+    outline: 0;
+}
+
+option {
     border: 0;
+    outline: 0;
 }
 
 #form #searchBtn {
