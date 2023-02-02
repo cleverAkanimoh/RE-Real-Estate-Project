@@ -4,7 +4,7 @@ header {
     display: grid;
     place-items: center;
     color: #fff;
-    background: linear-gradient(-90deg,#0000001a, #00000081), url(../assets/header-unsplash.png) no-repeat center/cover;
+    background: linear-gradient(-90deg, #0000001a, #00000081), url(../assets/header-unsplash.png) no-repeat center/cover;
 }
 
 #header__section {
@@ -20,7 +20,7 @@ header {
 
 #heading__text {
     text-transform: capitalize;
-    font: 700 1.8rem/1.4 'georgia',sans-serif;
+    font: 700 1.8rem/1.4 'georgia', sans-serif;
 }
 
 #map__filter__div {
@@ -29,6 +29,7 @@ header {
     padding: 0.78rem;
     border-radius: 0.35rem;
 }
+
 #form {
     display: flex;
     align-items: center;
@@ -41,17 +42,14 @@ header {
 
 .select {
     height: 40px;
+    outline: 0;
     border-color: #60acf8;
     border-radius: 0.35rem;
+    transition: all 0.35s;
 }
 
-.select:focus {
-    border-color: #60acf8;
-}
-
-option {
-    border: 0;
-    outline: 0;
+.select:focus, .select:hover {
+    border-color: #a6a6b4;
 }
 
 #form #searchBtn {
@@ -73,6 +71,6 @@ option {
 @media screen and (min-width: 800px) {
     #heading__text {
         text-transform: capitalize;
-        font: 600 2rem/1.4 'georgia',sans-serif;
+        font: 600 2rem/1.4 'georgia', sans-serif;
     }
 }
