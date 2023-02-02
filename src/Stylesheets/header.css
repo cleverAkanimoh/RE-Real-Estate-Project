@@ -46,7 +46,7 @@ header {
 }
 
 .select:focus {
-    outline: 0;
+    border-color: #60acf8;
 }
 
 option {
