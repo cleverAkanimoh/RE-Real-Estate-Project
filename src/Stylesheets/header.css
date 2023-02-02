@@ -39,6 +39,16 @@ header {
     margin-right: 5px;
 }
 
+.select {
+    height: 40px;
+    border-color: #60acf8;
+    border-radius: 0.35rem;
+}
+
+.select:focus {
+    border: 0;
+}
+
 #form #searchBtn{
     display: grid;
     place-items: center;
