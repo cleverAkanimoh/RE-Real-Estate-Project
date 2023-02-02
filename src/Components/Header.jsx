@@ -1,4 +1,5 @@
-import "../Stylesheets/header.css"
+import "../Stylesheets/header.css";
+import mapImg from "../assets/map-img.png";
 
 export default function () {
    return (
