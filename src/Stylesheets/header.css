@@ -1,8 +1,3 @@
-@font-face {
-    font-family: Poppins;
-    src: url();
-}
-
 header {
     width: 100%;
     height: 100vh;
@@ -25,7 +20,7 @@ header {
 
 #heading__text {
     text-transform: capitalize;
-    font: 700 1.8rem/1.4 'inter';
+    font: 700 1.8rem/1.4 Inter, sans-serif;
 }
 
 #map__filter__div {
@@ -84,7 +79,7 @@ header {
 
     #heading__text {
         text-transform: capitalize;
-        font: 600 2.5rem/1.4 'georgia', sans-serif;
+        font-size: 2.2rem;
     }
 
     #map__filter__div{
