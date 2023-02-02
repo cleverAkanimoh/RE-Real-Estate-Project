@@ -49,11 +49,15 @@ header {
     border: 0;
 }
 
-#form #searchBtn{
+#form #searchBtn {
     display: grid;
     place-items: center;
     padding: 0.5rem;
     background: #60acf8;
+}
+
+#form #searchBtn:hover {
+    opacity: 0.8;
 }
 
 #search__icon {
