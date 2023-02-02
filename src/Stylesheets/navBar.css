@@ -31,6 +31,11 @@ nav {
 
 #hamm__btn {
     display: grid;
+    background: #fff;
+}
+
+#hamm__btn:hover {
+    box-shadow: -1px -2px 3px #a6a6b4, 1px 2px 3px #a6a6b4;
 }
 
 #menu__icon {
@@ -55,7 +60,7 @@ nav {
 }
 
 #navigation__unordered_list li:hover {
-    color: #a6a6b4;
+    text-shadow: -1px -2px 3px #a6a6b4, 1px 2px 3px #a6a6b4;
 }
 
 .active {
@@ -107,10 +112,6 @@ nav {
     #nav__container {
         width: 600px;
     }
-
-    #navigation__unordered_list {
-        margin: 0rem 0 0 6rem;
-    }
 }
 
 @media screen and (min-width: 1024px) {
@@ -118,13 +119,12 @@ nav {
         width: 900px;
     }
 
-    /* #navigation__unordered_list {
-        margin: 0rem 0 0 9rem;
-        
-    } */
-
     #logo__hamm__container img {
         width: 130px;
         height: auto;
+    }
+
+    #navigation__unordered_list {
+        translate: 50% 10%;
     }
 }

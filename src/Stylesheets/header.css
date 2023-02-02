@@ -4,21 +4,24 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 0.5rem;
     color: #fff;
     background: linear-gradient(-90deg,#0000001a, #00000081), url(../assets/header-unsplash.png) no-repeat center/cover;
 }
 
+#header__section {
+    width: 90%;
+    display: flex;
+}
 #map__filter__div {
     display: none;
 }
 
 #heading__text {
     text-transform: capitalize;
-    font: 700 1.8rem/1.5 'georgia',sans-serif;
+    font: 700 1.8rem/1.4 'georgia',sans-serif;
 }
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 800px) {
     #map__filter__div {
         display: block;
     }
