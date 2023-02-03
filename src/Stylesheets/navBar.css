@@ -65,11 +65,13 @@ nav {
 }
 
 #navigation__unordered_list li:hover {
-    text-shadow: -1px -2px 3px #a6a6b4, 1px 2px 3px #a6a6b4;
+    text-shadow: -2px -2px 3px #a6a6b4, 2px 2px 3px #a6a6b4;
 }
 
 .active {
-    color: #757586;
+    color: #8b8b8b;
+    font-weight: bold;
+    text-shadow: none !important;
 }
 
 @media screen and (min-width: 650px) {
@@ -132,6 +134,6 @@ nav {
     }
 
     #navigation__unordered_list {
-        translate: 50% 22%;
+        translate: 25% 22%;
     }
 }

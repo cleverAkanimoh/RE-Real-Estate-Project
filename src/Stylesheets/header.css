@@ -43,20 +43,22 @@ header {
 .select {
     height: 40px;
     outline: 0;
-    border-color: #60acf8;
+    border-color: #23A6F0;
     border-radius: 0.35rem;
     transition: all 0.35s;
 }
 
-.select:focus, .select:hover {
+.select:focus,
+.select:hover {
     border-color: #a6a6b4;
 }
 
 #form #searchBtn {
     display: grid;
     place-items: center;
-    padding: 0.5rem;
-    background: #60acf8;
+    background: #23A6F0;
+    height: 40px;
+    width: 40px;
 }
 
 #form #searchBtn:hover {
@@ -65,16 +67,18 @@ header {
 
 #search__icon {
     color: #fff;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 @media screen and (min-width: 800px) {
     #map__image {
         display: inline-block;
+        width: 300px;
     }
 
     #header__section {
-        width: 70%;
+        flex-direction: row;
+        width: 700px;
     }
 
     #heading__text {
@@ -82,11 +86,39 @@ header {
         font-size: 2.2rem;
     }
 
-    #map__filter__div{
+    #map__filter__div {
         width: 50%;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #form {
+        width: 90%;
+    }
+
+    .select {
+        width: 120px;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    #map__image {
+        width: 400px;
     }
 
     #header__section {
-        flex-direction: row;
+        width: 900px;
+    }
+
+    #heading__text {
+        font-size: 2.6rem;
+    }
+
+    .select {
+        width: 150px;
     }
 }
