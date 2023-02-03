@@ -36,26 +36,24 @@ header {
     border-radius: 0.35rem;
 }
 
-#form *:not(:last-child) {
-    margin-right: 5px;
-}
-
 .select {
     height: 40px;
     outline: 0;
-    border-color: #23A6F0;
-    border-radius: 0.35rem;
+    border-color: #a6a6b4;
     transition: all 0.35s;
 }
 
 .select:focus,
 .select:hover {
-    border-color: #a6a6b4;
+    border-color: #23A6F0;
 }
+
+.select.types
 
 #form #searchBtn {
     display: grid;
     place-items: center;
+    border-radius: 0 0.3rem 0.3rem 0;
     background: #23A6F0;
     height: 40px;
     width: 40px;
