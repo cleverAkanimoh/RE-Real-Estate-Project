@@ -69,9 +69,7 @@ nav {
 }
 
 .active {
-    color: #8b8b8b;
     font-weight: bold;
-    text-shadow: none !important;
 }
 
 @media screen and (min-width: 650px) {
