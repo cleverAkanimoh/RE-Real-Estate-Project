@@ -57,29 +57,46 @@
     #minimum__text {
         font: bolder 1.3rem sans-serif;
     }
-    
+
     #underline {
         width: 213px;
     }
-    
+
     #swimming__image {
         height: 50vh;
     }
-    
+
     #aside {
         padding: 0.5rem;
     }
-    
+
     .icons {
         width: 35px;
         height: 35px;
     }
-    
+
     .tag__line {
         font-size: 0.99rem;
     }
 }
 
 @media screen and (min-width: 768px) {
-    
+
+    #main__content {
+        padding: 3rem 0 0;
+    }
+
+    #minimum__article {
+        width: 80%;
+    }
+
+    #image__aside {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #minimum__article {
+        width: 1100px;
+    }
 }

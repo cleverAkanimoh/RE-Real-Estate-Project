@@ -8,7 +8,7 @@ export default function () {
          <article id="minimum__article">
             <h2 id="minimum__text">minimum living cost takes care of everything</h2>
             <div id="underline"></div>
-            <div>
+            <div id="image__aside">
                <img src={swimmingImage} alt="swimming pool" id="swimming__image" />
                <aside id="aside">
                   <div className="pay">
