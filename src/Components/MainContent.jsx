@@ -1,4 +1,4 @@
-import { VscHome } from "react-icons/vsc";
+// import { VscHome } from "react-icons/vsc";
 import swimmingImage from "../assets/swimmingpool.png";
 import "../Stylesheets/mainContent.css";
 
@@ -10,7 +10,7 @@ export default function () {
             <div id="underline"></div>
             <div>
                <img src={swimmingImage} alt="swimming pool" />
-               <aside><VscHome /></aside>
+               <aside></aside>
             </div>
          </article>
       </section>
