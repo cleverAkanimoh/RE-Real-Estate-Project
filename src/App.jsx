@@ -1,5 +1,5 @@
-// import NavBar from "./Components/NavBar";
-// import Header from "./Components/Header";
+import NavBar from "./Components/NavBar";
+import Header from "./Components/Header";
 import MainContent from "./Components/MainContent";
 import Footer from "./Components/Footer";
 
