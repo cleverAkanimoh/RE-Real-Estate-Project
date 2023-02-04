@@ -1,4 +1,4 @@
-import { FaDollarSign } from "react-icons/fa";
+import { FaDollarSign, FaLayerGroup } from "react-icons/fa";
 import swimmingImage from "../assets/swimmingpool.png";
 import "../Stylesheets/mainContent.css";
 
@@ -12,27 +12,27 @@ export default function () {
                <img src={swimmingImage} alt="swimming pool" id="swimming__image" />
                <aside id="aside">
                   <div className="pay">
-                     <FaDollarSign className="icons" />
+                     <FaDollarSign className="icons dollar" />
                      <p className="tag__line">pay as little as possible!</p>
                   </div>
                   <div className="pay">
-                     <FaDollarSign className="icons" />
+                     <FaDollarSign className="icons house" />
                      <p className="tag__line">Enjoy wisdom of community!</p>
                   </div>
                   <div className="pay">
-                     <FaDollarSign className="icons" />
+                     <FaLayerGroup className="icons layer" />
                      <p className="tag__line">Let's take care of Landlord!</p>
                   </div>
                   <div className="pay">
-                     <FaDollarSign className="icons" />
+                     <FaDollarSign className="icons flower" />
                      <p className="tag__line">Enjoy peaceful Environment!</p>
                   </div>
                   <div className="pay">
-                     <FaDollarSign className="icons" />
+                     <FaDollarSign className="icons shield" />
                      <p className="tag__line">Stay Safe!<br />Save Money!</p>
                   </div>
                   <div className="pay">
-                     <FaDollarSign className="icons" />
+                     <FaDollarSign className="icons sun" />
                      <p className="tag__line">Pay for what you use!</p>
                   </div>
                </aside>
