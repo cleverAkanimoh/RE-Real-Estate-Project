@@ -32,9 +32,14 @@
 }
 
 .icons {
+    display: grid;
+    place-items: center;
     color: #F4511E;
-    font-size: 1rem;
-    box-shadow: ;
+    padding: 0.5rem;
+    box-shadow: -1px -1px 2px #57575749, 1px 1px 2px #53535375;
+    border-radius: 0.25rem;
+    width: 30px;
+    height: 30px;
 }
 
 .tag__line {

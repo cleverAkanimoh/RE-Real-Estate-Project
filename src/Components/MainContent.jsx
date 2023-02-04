@@ -1,4 +1,5 @@
-import { FaDollarSign } from "react-icons/fa";
+import { FaDollarSign, FaWarehouse } from "react-icons/fa";
+import { VscFile } from "react-icons/vsc";
 import swimmingImage from "../assets/swimmingpool.png";
 import "../Stylesheets/mainContent.css";
 
@@ -16,11 +17,11 @@ export default function () {
                      <p className="tag__line">pay as little as possible!</p>
                   </div>
                   <div className="pay">
-                     <FaDollarSign className="icons" />
+                     <FaWarehouse className="icons" />
                      <p className="tag__line">Enjoy wisdom of community!</p>
                   </div>
                   <div className="pay">
-                     <FaDollarSign className="icons" />
+                     <VscFile className="icons" />
                      <p className="tag__line">Let somebody else take care of Landlord!</p>
                   </div>
                   <div className="pay">
