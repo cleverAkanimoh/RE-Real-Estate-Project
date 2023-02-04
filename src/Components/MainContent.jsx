@@ -14,11 +14,11 @@ export default function () {
                <aside id="aside">
                   <div className="pay">
                      <BsCurrencyDollar className="icons dollar" />
-                     <p className="tag__line">pay as little as possible!</p>
+                     <p className="tag__line">pay as little<br/>as possible!</p>
                   </div>
                   <div className="pay">
                      <BsBuilding className="icons house" />
-                     <p className="tag__line">Enjoy wisdom of community!</p>
+                     <p className="tag__line">Enjoy wisdom<br/>of community!</p>
                   </div>
                   <div className="pay">
                      <VscLayers className="icons layer" />
@@ -26,7 +26,7 @@ export default function () {
                   </div>
                   <div className="pay">
                      <BsFlower1 className="icons flower" />
-                     <p className="tag__line">Enjoy peaceful Environment!</p>
+                     <p className="tag__line">Enjoy peaceful<br/>Environment!</p>
                   </div>
                   <div className="pay">
                      <VscShield className="icons shield" />

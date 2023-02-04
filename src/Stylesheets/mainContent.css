@@ -30,7 +30,7 @@
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
+    gap: 15px 30px;
 }
 
 .pay {
@@ -40,7 +40,7 @@
 
 .icons {
     color: #F4511E;
-    padding: 0.55rem;
+    padding: 0.4rem;
     box-shadow: -1px -1px 2px #57575749, 3px 5px 2px #5353535d;
     border-radius: 0.25rem;
     width: 30px;
@@ -59,7 +59,7 @@
     }
 
     #underline {
-        width: 187px;
+        width: 188px;
     }
 
     #swimming__image {
@@ -71,12 +71,13 @@
     }
 
     .icons {
+        padding: 0.5rem;
         width: 35px;
         height: 35px;
     }
 
     .tag__line {
-        font-size: 0.99rem;
+        font-size: 0.96rem;
         margin-left: 10px;
     }
 }
