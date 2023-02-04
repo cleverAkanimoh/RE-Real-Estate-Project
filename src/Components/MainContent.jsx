@@ -1,5 +1,5 @@
 import { VscLayers, VscShield } from "react-icons/vsc";
-import { BsCircle, BsCurrencyDollar, BsBuilding } from "react-icons/bs";
+import { BsCircle, BsCurrencyDollar, BsBuilding, BsFlower1, BsLayerBackward } from "react-icons/bs";
 import swimmingImage from "../assets/swimmingpool.png";
 import "../Stylesheets/mainContent.css";
 
@@ -22,10 +22,10 @@ export default function () {
                   </div>
                   <div className="pay">
                      <VscLayers className="icons layer" />
-                     <p className="tag__line">Let's take care of Landlord!</p>
+                     <p className="tag__line">Let somebody else<br/>take care of Landlord!</p>
                   </div>
                   <div className="pay">
-                     <VscLayers className="icons flower" />
+                     <BsFlower1 className="icons flower" />
                      <p className="tag__line">Enjoy peaceful Environment!</p>
                   </div>
                   <div className="pay">
@@ -34,7 +34,7 @@ export default function () {
                   </div>
                   <div className="pay">
                      <BsCircle className="icons moon" />
-                     <p className="tag__line">Pay for what you use!</p>
+                     <p className="tag__line">Pay for what<br/>you use!</p>
                   </div>
                </aside>
             </div>
