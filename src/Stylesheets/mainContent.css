@@ -55,11 +55,11 @@
 
 @media screen and (min-width: 500px) {
     #minimum__text {
-        font: bolder 1.3rem sans-serif;
+        font: bolder 1.15rem sans-serif;
     }
 
     #underline {
-        width: 213px;
+        width: 187px;
     }
 
     #swimming__image {
@@ -77,6 +77,7 @@
 
     .tag__line {
         font-size: 0.99rem;
+        margin-left: 10px;
     }
 }
 
@@ -84,14 +85,43 @@
 
     #main__content {
         padding: 3rem 0 0;
+        border: 1px solid;
     }
 
     #minimum__article {
-        width: 80%;
+        width: 97%;
+    }
+
+    #minimum__text {
+        font: bolder 1.5rem sans-serif;
+        translate: 4% 0;
+    }
+
+    #underline{
+        translate: 18% 0;
+        width: 245px;
+    }
+
+    #aside {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 35px 15px;
     }
 
     #image__aside {
         display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .pay {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .tag__line {
+        font-size: 0.9rem;
+        margin-left: 0;
+        margin-top: 5px;
     }
 }
 
