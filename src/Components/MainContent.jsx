@@ -1,4 +1,4 @@
-// import { VscHome } from "react-icons/vsc";
+import { FaDollarSign } from "react-icons/fa";
 import swimmingImage from "../assets/swimmingpool.png";
 import "../Stylesheets/mainContent.css";
 
@@ -9,8 +9,33 @@ export default function () {
             <h2>minimum living cost takes care of everything</h2>
             <div id="underline"></div>
             <div>
-               <img src={swimmingImage} alt="swimming pool" />
-               <aside></aside>
+               <img src={swimmingImage} alt="swimming pool" id="swimming__image" />
+               <aside>
+                  <div className="pay">
+                     <FaDollarSign className="icons" />
+                     <p className="tag__line">pay as little as possible!</p>
+                  </div>
+                  <div className="pay">
+                     <FaDollarSign className="icons" />
+                     <p className="tag__line">Enjoy wisdom of community!</p>
+                  </div>
+                  <div className="pay">
+                     <FaDollarSign className="icons" />
+                     <p className="tag__line">Let's somebody else take care of Landlord!</p>
+                  </div>
+                  <div className="pay">
+                     <FaDollarSign className="icons" />
+                     <p className="tag__line">Enjoy peaceful Environment!</p>
+                  </div>
+                  <div className="pay">
+                     <FaDollarSign className="icons" />
+                     <p className="tag__line">Stay Safe!<br />Save Money!</p>
+                  </div>
+                  <div className="pay">
+                     <FaDollarSign className="icons" />
+                     <p className="tag__line">Pay for what you use !</p>
+                  </div>
+               </aside>
             </div>
          </article>
       </section>
