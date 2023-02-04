@@ -21,7 +21,7 @@ export default function () {
                   </div>
                   <div className="pay">
                      <FaDollarSign className="icons" />
-                     <p className="tag__line">Let somebody else take care of Landlord!</p>
+                     <p className="tag__line">Let's take care of Landlord!</p>
                   </div>
                   <div className="pay">
                      <FaDollarSign className="icons" />
