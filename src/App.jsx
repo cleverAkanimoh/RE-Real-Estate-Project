@@ -7,8 +7,8 @@ export default function App() {
 
   return (
     <main>
-      {/* <NavBar /> */}
-      {/* <Header /> */}
+      <NavBar />
+      <Header />
       <MainContent />
       <Footer />
     </main>
