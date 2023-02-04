@@ -6,11 +6,11 @@ export default function () {
    return (
       <section id="main__content">
          <article id="minimum__article">
-            <h2>minimum living cost takes care of everything</h2>
+            <h2 id="minimum__text">minimum living cost takes care of everything</h2>
             <div id="underline"></div>
             <div>
                <img src={swimmingImage} alt="swimming pool" id="swimming__image" />
-               <aside>
+               <aside id="aside">
                   <div className="pay">
                      <FaDollarSign className="icons" />
                      <p className="tag__line">pay as little as possible!</p>
@@ -21,7 +21,7 @@ export default function () {
                   </div>
                   <div className="pay">
                      <FaDollarSign className="icons" />
-                     <p className="tag__line">Let's somebody else take care of Landlord!</p>
+                     <p className="tag__line">Let somebody else take care of Landlord!</p>
                   </div>
                   <div className="pay">
                      <FaDollarSign className="icons" />
@@ -33,7 +33,7 @@ export default function () {
                   </div>
                   <div className="pay">
                      <FaDollarSign className="icons" />
-                     <p className="tag__line">Pay for what you use !</p>
+                     <p className="tag__line">Pay for what you use!</p>
                   </div>
                </aside>
             </div>

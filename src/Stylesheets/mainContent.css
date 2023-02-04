@@ -1,0 +1,44 @@
+#main__content {
+    padding: 2rem 0.7rem;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#minimum__article {
+    text-transform: capitalize;
+}
+#minimum__text {
+    font: bold 0.99rem sans-serif;
+}
+
+#swimming__image {
+    width: 95%;
+    height: 50vh;
+}
+
+#aside {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.pay {
+    display: flex;
+    align-items: center;
+}
+
+.icons {
+    color: #F4511E;
+    font-size: 1rem;
+    box-shadow: ;
+}
+
+.tag__line {
+    font-size: 0.88rem;
+    font-weight: 600;
+    margin-left: 5px;
+}
