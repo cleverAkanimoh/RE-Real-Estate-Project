@@ -1,4 +1,5 @@
-import { FaDollarSign, FaLayerGroup } from "react-icons/fa";
+import { VscLayers, VscShield } from "react-icons/vsc";
+import { BsCircle, BsCurrencyDollar, BsBuilding } from "react-icons/bs";
 import swimmingImage from "../assets/swimmingpool.png";
 import "../Stylesheets/mainContent.css";
 
@@ -12,27 +13,27 @@ export default function () {
                <img src={swimmingImage} alt="swimming pool" id="swimming__image" />
                <aside id="aside">
                   <div className="pay">
-                     <FaDollarSign className="icons dollar" />
+                     <BsCurrencyDollar className="icons dollar" />
                      <p className="tag__line">pay as little as possible!</p>
                   </div>
                   <div className="pay">
-                     <FaDollarSign className="icons house" />
+                     <BsBuilding className="icons house" />
                      <p className="tag__line">Enjoy wisdom of community!</p>
                   </div>
                   <div className="pay">
-                     <FaLayerGroup className="icons layer" />
+                     <VscLayers className="icons layer" />
                      <p className="tag__line">Let's take care of Landlord!</p>
                   </div>
                   <div className="pay">
-                     <FaDollarSign className="icons flower" />
+                     <VscLayers className="icons flower" />
                      <p className="tag__line">Enjoy peaceful Environment!</p>
                   </div>
                   <div className="pay">
-                     <FaDollarSign className="icons shield" />
+                     <VscShield className="icons shield" />
                      <p className="tag__line">Stay Safe!<br />Save Money!</p>
                   </div>
                   <div className="pay">
-                     <FaDollarSign className="icons sun" />
+                     <BsCircle className="icons moon" />
                      <p className="tag__line">Pay for what you use!</p>
                   </div>
                </aside>
