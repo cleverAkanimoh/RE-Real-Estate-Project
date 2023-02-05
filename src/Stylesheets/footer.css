@@ -111,6 +111,9 @@ footer {
     #footer__social_links {
         margin: 3rem 0;
     }
+    .colorme {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -120,5 +123,13 @@ footer {
         align-items: center;
         margin: 0 0.8rem;
         border-top: 1px solid #7dbbfc33;
+    }
+
+    #footer__address {
+        translate: 30%;
+    }
+
+    .colorme {
+        font-size: 1.3rem;
     }
 }
