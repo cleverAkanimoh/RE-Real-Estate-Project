@@ -84,23 +84,46 @@
     top: 0;
     left: 0;
 }
+
 .happy {
     background: linear-gradient(-90deg, #0000001a, #00000081), url(../assets/happy-guy.png)no-repeat center/cover;
-    height: 150px;
+    height: 155px;
     position: absolute;
-    top: 35px;
+    top: 40px;
     right: -5px;
 }
+
 .cleaning {
     background: linear-gradient(-90deg, #0000001a, #00000081), url(../assets/cleaning.png)no-repeat center/cover;
+    height: 155px;
+    width: 43%;
+    position: absolute;
+    bottom: 40px;
+    left: 0;
 }
+
 .roommates {
     background: linear-gradient(-90deg, #0000001a, #00000081), url(../assets/roommates.png)no-repeat center/cover;
     height: 195px;
-    width: 60%;
+    width: 55%;
     position: absolute;
     bottom: 0;
     right: 0;
+}
+
+#flexibility__para {
+    font-weight: 400;
+    font-size: 0.85rem;
+    margin: 18px 0;
+}
+
+#rooms__btn {
+    text-decoration: none;
+    border-radius: 0.3rem;
+    padding: 0.3rem;
+    background: #F4511E;
+    color: #fff;
+    font-size: 0.89rem;
 }
 
 @media screen and (min-width: 500px) {
