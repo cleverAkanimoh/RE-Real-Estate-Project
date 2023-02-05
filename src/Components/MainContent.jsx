@@ -6,8 +6,8 @@ import AddNewProperty from "./AddNewHouseProperty";
 export default function () {
    return (
       <section id="main__content">
-         {/* <Minimum />
-         <Flexibility /> */}
+         <Minimum />
+         <Flexibility />
          <AddNewProperty />
       </section>
    )
