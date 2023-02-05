@@ -2,16 +2,12 @@ import { BsCurrencyDollar, BsBuilding, BsFlower1, BsLayerBackward } from "react-
 import { VscLayers, VscShield } from "react-icons/vsc";
 import { BiAdjust } from "react-icons/bi";
 import swimmingImage from "../assets/swimmingpool.png";
-import bedImage from "../assets/bedinplaces.png";
-import happyImage from "../assets/happy-guy.png";
-import cleaningImage from "../assets/cleaning.png";
-import roommatesImage from "../assets/roommates.png";
 import "../Stylesheets/mainContent.css";
 
 export default function () {
    return (
       <section id="main__content">
-         {/* <article id="minimum__article">
+         <article id="minimum__article">
             <h2 id="minimum__text">minimum living cost takes care of everything</h2>
             <div id="underline"></div>
             <div id="image__aside">
@@ -43,14 +39,14 @@ export default function () {
                   </div>
                </aside>
             </div>
-         </article> */}
+         </article>
 
          <article id="flexibility__article" >
             <div id="flexibility__images">
-               <img src={bedImage} alt="bed image" id="bed__image" />
-               <img src={happyImage} alt="happy image" id="happy__image" />
-               <img src={cleaningImage} alt="cleaning image" id="cleaning__image" />
-               <img src={roommatesImage} alt="roommates image" id="roommates__image" />
+               <h4 className="flexibility__h4 bed">flexible lease</h4>
+               <h4 className="flexibility__h4 happy">7-Day happiness quaranteed</h4>
+               <h4 className="flexibility__h4 cleaning">monthly house cleaning</h4>
+               <h4 className="flexibility__h4 roommates">choose your roommate</h4>
             </div>
             <div id="flexibility__write_up">
                <h2 id="flexibility__h2">Flexibility and options to suit your lifestyle.</h2>
