@@ -259,7 +259,7 @@
 
     #flexibility__article {
         width: 490px;
-        padding: 0 0.5rem;
+        padding: 0 1rem;
     }
 
     #flexibility__images {
@@ -305,6 +305,12 @@
         color: #F4511E;
         background-color: #fff;
         box-shadow: -2px 0px 2px #57575749, 2px 3px 2px #5353535d;
+    }
+
+    /* property form */
+
+    #property__article {
+        margin: 4rem 1rem;
     }
 
     #form__fields {
