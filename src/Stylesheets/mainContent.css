@@ -60,6 +60,10 @@
 
 /* flexibility article */
 
+.colorme {
+    color: #F4511E;
+}
+
 #flexibility__images {
     position: relative;
     height: 400px;
@@ -157,6 +161,11 @@
         margin-left: 10px;
     }
 
+    #flexibility__article {
+        width: 490px;
+        padding: 0 0.5rem;
+    }
+
     #flexibility__images {
         height: 450px;
         width: 450px;
@@ -251,7 +260,7 @@
         align-items: center;
         justify-content: center;
         width: 700px;
-        gap: 0 15px;
+        gap: 0 25px;
     }
 
     #flexibility__images {

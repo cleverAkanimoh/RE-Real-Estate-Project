@@ -49,7 +49,7 @@ export default function () {
                <h4 className="flexibility__h4 roommates">choose your own roommate</h4>
             </div>
             <div id="flexibility__write_up">
-               <h2 id="flexibility__h2">Flexibility and options to suit your lifestyle.</h2>
+               <h2 id="flexibility__h2"><span className="colorme">Flexibility</span> and options to suit your lifestyle.</h2>
                <p id="flexibility__para">You need it? We got it. We make finding your next home easy, comfortable, and simple. From our happiness guarantee to our selective roommate finder option. We provide you the flexibility that you most desire.</p>
                <a href="#form" id="rooms__btn">search rooms</a>
             </div>
