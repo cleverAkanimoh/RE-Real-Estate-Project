@@ -117,7 +117,8 @@
     right: 0;
 }
 
-#flexibility__para, #reviews__para {
+#flexibility__para,
+#reviews__para {
     font-weight: 400;
     font-size: 0.85rem;
     line-height: 1.45;
@@ -232,12 +233,16 @@
 
 #reviews__article {
     width: 106.5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hwb(14 12% 4% / 0.15);
 }
 
-#reviews__container {
+.reviews__container {
     position: relative;
     height: 650px;
-    background: hwb(14 12% 4% / 0.15);
+    width: 100%;
     padding: 1.5rem 0;
     display: flex;
     flex-direction: column-reverse;
@@ -245,7 +250,7 @@
     justify-content: center;
 }
 
-#reviews__info {
+.reviews__info {
     position: absolute;
     bottom: 55px;
     width: 85%;
@@ -253,7 +258,7 @@
     flex-direction: column;
 }
 
-#reviews__text {
+.reviews__text {
     position: relative;
     text-transform: none;
 }
@@ -267,33 +272,33 @@
     opacity: .4;
 }
 
-#reviews__profile {
+.reviews__profile {
     display: flex;
 }
 
-#profile__image {
+.profile__image {
     width: 60px;
     height: 60px;
     border: 2px solid #F4511E;
     border-radius: 50%;
 }
 
-#reviews__profile_info {
+.reviews__profile_info {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 5px;
 }
 
-#reviews__profile_info big {
+.reviews__profile_info big {
     font: 600 1rem sans-serif;
 }
 
-#reviews__profile_info small {
+.reviews__profile_info small {
     font: 500 0.7rem sans-serif;
 }
 
-#reviews__video_placeholder {
+.reviews__video_placeholder {
     position: absolute;
     top: 0;
     left: 0;
@@ -532,6 +537,33 @@
     .span__ {
         grid-column: span 3;
     }
+
+    /* reviews */
+
+    #reviews__article {
+       background: transparent;
+       width: 100%;
+    }
+    .reviews__container {
+        flex-direction: row;
+        justify-content: space-between;
+        background: hwb(14 12% 4% / 0.15);
+        height: fit-content;
+        padding: 0;
+    }
+
+    .reviews__info {
+        position: relative;
+        width: 45%;
+        top: 0;
+        left: 5%;
+    }
+
+    .reviews__video_placeholder {
+        position: relative;
+        width: 350px;
+        height: 80vh;
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -556,6 +588,20 @@
     #flexibility__para {
         font-size: 1.1rem;
         margin: 25px 0;
+    }
+
+    #reviews__info {
+        width: 40%;
+    }
+
+    #reviews__video_placeholder {
+        width: 450px;
+        height: 90vh;
+    }
+
+    #reviews__para {
+        font-size: 1.1rem;
+        font-style: italic;
     }
 }
 
