@@ -89,6 +89,10 @@ footer {
         align-items: center;
     }
 
+    #footer__contact_info{
+        width: 350px;
+    }
+
     #footer__contact_info,
     #footer__social_links {
         display: flex;
