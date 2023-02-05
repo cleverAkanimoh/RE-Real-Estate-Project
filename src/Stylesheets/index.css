@@ -13,3 +13,10 @@ button {
   border-radius: 0.3rem;
   padding: 0.3rem;
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}

@@ -1,13 +1,14 @@
 #main__content {
     padding: 2rem 0.7rem;
-    min-height: 100vh;
     width: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
 }
 
 #minimum__article {
     text-transform: capitalize;
+    min-height: 100vh;
 }
 
 #minimum__text {
