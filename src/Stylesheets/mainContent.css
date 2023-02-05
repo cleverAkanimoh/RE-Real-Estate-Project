@@ -276,13 +276,6 @@
     display: flex;
 }
 
-.profile__image {
-    width: 60px;
-    height: 60px;
-    border: 2px solid #F4511E;
-    border-radius: 50%;
-}
-
 .reviews__profile_info {
     display: flex;
     flex-direction: column;
@@ -590,16 +583,15 @@
         margin: 25px 0;
     }
 
-    #reviews__info {
-        width: 40%;
+    .reviews__info {
+        width: 50%;
     }
 
-    #reviews__video_placeholder {
+    .reviews__video_placeholder {
         width: 450px;
-        height: 90vh;
     }
 
-    #reviews__para {
+    .reviews__para {
         font-size: 1.1rem;
         font-style: italic;
     }
@@ -613,5 +605,9 @@
 
     #property__article {
         width: 900px;
+    }
+
+    .reviews__video_placeholder {
+        width: 500px;
     }
 }
