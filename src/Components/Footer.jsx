@@ -1,4 +1,5 @@
 import { MdLocationPin, MdCall, MdPrint } from "react-icons/md";
+import { FaFacebookSquare, FaTwitter, FaLinkedinIn, FaYoutube, FaInstagram, FaGooglePlus, FaPinterest, FaWifi } from "react-icons/fa";
 import logo from "../assets/logo1.png";
 import "../Stylesheets/footer.css";
 
@@ -18,12 +19,14 @@ export default function () {
                   </ul>
                   <ul id="footer__social_links">
                      <li className="odd">Social Media</li>
-                     <li className="colorme"></li>
-                     <li className="colorme"></li>
-                     <li className="colorme"></li>
-                     <li className="colorme"></li>
-                     <li className="colorme"></li>
-                     <li className="colorme"></li>
+                     <li><a href=""><FaFacebookSquare className="colorme" /></a></li>
+                     <li><a href=""><FaTwitter className="colorme" /></a></li>
+                     <li><a href=""><FaLinkedinIn className="colorme" /></a></li>
+                     <li><a href=""><FaYoutube className="colorme" /></a></li>
+                     <li><a href=""><FaInstagram className="colorme" /></a></li>
+                     <li><a href=""><FaGooglePlus className="colorme" /></a></li>
+                     <li><a href=""><FaPinterest className="colorme" /></a></li>
+                     <li><a href=""><FaWifi className="colorme" /></a></li>
                   </ul>
                </aside>
             </div>

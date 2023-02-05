@@ -24,3 +24,7 @@ main {
 .colorme {
   color: #F4511E;
 }
+
+li {
+  list-style: none;
+}
