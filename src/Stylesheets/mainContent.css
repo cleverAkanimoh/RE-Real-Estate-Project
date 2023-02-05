@@ -136,7 +136,7 @@
 
 #property__h2 {
     text-align: center;
-    font: 600 0.91rem sans-serif;
+    font: 500 0.91rem sans-serif;
 }
 
 #property__form {
@@ -296,6 +296,22 @@
         color: #F4511E;
         background-color: #fff;
         box-shadow: -2px 0px 2px #57575749, 2px 3px 2px #5353535d;
+    }
+
+    #form__fields {
+        grid-template-columns: 48% 48%;
+    }
+
+    .span__ {
+        grid-column: span 2;
+    }
+
+    .span__:hover {
+        opacity: .8;
+    }
+
+    .description__field, .photo__field {
+        grid-column: span 2;
     }
 }
 

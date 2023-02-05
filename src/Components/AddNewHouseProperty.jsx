@@ -23,7 +23,7 @@ export default function () {
 
                     <label className="label photo__label">upload photos<span className="colorme">*</span><br/><input type="file" accept=".jpg, .jpeg, .png" name="photoField" className="fields photo__field" placeholder="drag your image here, or browse" /></label>
 
-                    <button type="submit" id="add_new__btn">add new property</button>
+                    <button type="submit" id="add_new__btn" className="span__">add new property</button>
                 </div>
             </form>
         </article>
