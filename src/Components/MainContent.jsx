@@ -2,10 +2,10 @@ import { BsCurrencyDollar, BsBuilding, BsFlower1, BsLayerBackward } from "react-
 import { VscLayers, VscShield } from "react-icons/vsc";
 import { BiAdjust } from "react-icons/bi";
 import swimmingImage from "../assets/swimmingpool.png";
-import swimmingImage from "../assets/swimmingpool.png";
-import swimmingImage from "../assets/swimmingpool.png";
-import swimmingImage from "../assets/swimmingpool.png";
-import swimmingImage from "../assets/swimmingpool.png";
+import bedImage from "../assets/bedinplaces.png";
+import happyImage from "../assets/happy-guy.png";
+import cleaningImage from "../assets/cleaning.png";
+import roommatesImage from "../assets/roommates.png";
 import "../Stylesheets/mainContent.css";
 
 export default function () {
