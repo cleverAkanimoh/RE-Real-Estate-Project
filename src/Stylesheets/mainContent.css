@@ -10,7 +10,8 @@
 
 #minimum__article,
 #flexibility__article,
-#property__article {
+#property__article,
+#reviews__article {
     text-transform: capitalize;
     min-height: 100vh;
 }
@@ -486,6 +487,7 @@
     #minimum__article {
         width: 1100px;
     }
+
     #property__article {
         width: 900px;
     }
