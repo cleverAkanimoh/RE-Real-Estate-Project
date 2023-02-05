@@ -4,6 +4,9 @@ import logo from "../assets/logo1.png";
 import "../Stylesheets/footer.css";
 
 export default function () {
+   const d = new Date();
+   let year = d.getFullYear();
+
    return (
       <footer>
          <div id="footer__container">
@@ -39,7 +42,7 @@ export default function () {
                   <li className="footer__nav _privacy">Privacy Policy</li>
                   <li className="footer__nav _disclaimer">Disclaimer</li>
                </ul>
-               <div className="odd footer__copyright">Copyright © {2023} Minimumlivingcost. All rights reserved</div>
+               <div className="odd footer__copyright">Copyright © { year } Minimumlivingcost. All rights reserved</div>
             </div>
          </div>
       </footer>

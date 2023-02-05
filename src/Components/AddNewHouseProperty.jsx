@@ -1,15 +1,28 @@
+import { useState } from "react";
+
 export default function () {
+    const [error, setError] = useState("");
+    const handleFormSubmit = (e) => {
+        const { value } = e.target;
+       
+        if(value === ""){
+            e.preventDefault();
+            setError("please check that all form fields are filled")
+            setTimeout(()=>setError(""),4000)
+        }
+    }
     return (
         <article id="property__article">
             <h2 id="property__h2">list Your property with us and be Confident that Your Room will be Filled Out!</h2>
-            <form id="property__form">
+            <form onSubmit={handleFormSubmit} id="property__form">
                 <label className="colorme header__label">Add A New Property</label>
+                <label className="danger header__label">{error}herererer</label>
                 <div id="form__fields">
-                    <label className="label name__label">name<span className="colorme">*</span><br /><input type="text" name="nameField" className="fields name__field" placeholder="enter name" /></label>
+                    <label className="label name__label">name<span className="colorme">*</span><br /><input type="text" onInput={handleFormSubmit} name="nameField" className="fields name__field" placeholder="enter name" /></label>
 
-                    <label className="label address__label">address<span className="colorme">*</span><br /><input type="text" name="addressField" className="fields address__field" placeholder="enter address" /></label>
+                    <label className="label address__label">address<span className="colorme">*</span><br /><input type="text" name="addressField" onInput={handleFormSubmit} className="fields address__field" placeholder="enter address" /></label>
 
-                    <label className="label unit__label">unit number<span className="colorme">*</span><br /><input type="number" name="unitField" className="fields unit__field" placeholder="enter unit" /></label>
+                    <label className="label unit__label">unit number<span className="colorme">*</span><br /><input type="number" name="unitField" onInput={handleFormSubmit} className="fields unit__field" placeholder="enter unit" /></label>
 
                     <label className="label city__label">city<span className="colorme">*</span><br /><select name="cityField" className="fields city__field"><option>select city</option></select></label>
 
