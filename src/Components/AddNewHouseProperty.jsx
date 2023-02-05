@@ -11,11 +11,11 @@ export default function () {
 
                     <label className="label unit__label">unit number<span className="colorme">*</span><br/><input type="number" name="unitField" className="fields unit__field" placeholder="enter unit" /></label>
 
-                    <label className="label city__label">city<span className="colorme">*</span><br/><select type="text" name="cityField" className="fields city__field"><option>select city</option></select></label>
+                    <label className="label city__label">city<span className="colorme">*</span><br/><select name="cityField" className="fields city__field"><option>select city</option></select></label>
 
-                    <label className="label state__label">state<span className="colorme">*</span><br/><select type="text" name="stateField" className="fields state__field"><option>select state</option></select></label>
+                    <label className="label state__label">state<span className="colorme">*</span><br/><select name="stateField" className="fields state__field"><option>select state</option></select></label>
 
-                    <label className="label room__label">room type<span className="colorme">*</span><br/><select type="text" name="roomField" className="fields room__field"><option>select room type</option></select></label>
+                    <label className="label room__label">room type<span className="colorme">*</span><br/><select name="roomField" className="fields room__field"><option>select room type</option></select></label>
 
                     <label className="label price__label">price<span className="colorme">*</span><br/><input type="text" name="price" className="fields price__field" placeholder="enter price" /></label>
 

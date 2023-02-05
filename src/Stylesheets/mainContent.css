@@ -165,6 +165,7 @@
 }
 
 .fields {
+    text-transform: capitalize;
     background: #F9F9F9;
     color: #737373;
     outline: 0;
@@ -175,6 +176,34 @@
     padding: 0.3rem;
 }
 
+.photo__field {
+    border: 2px dotted #F4511E;
+    height: 40px;
+    position: relative;
+    text-transform: none;
+    color: #fff;
+}
+
+.photo__field::before {
+    content: " or browse";
+    position: absolute;
+    right: 10%;
+    color: #F4511E;
+}
+.photo__field::after {
+    content: "Drag your images here,";
+    position: absolute;
+    left: 10%;
+    color: #000;
+}
+
+.photo__field::-webkit-file-upload-button {
+    border: 0;
+    color: #F4511E;
+    background: transparent;
+    visibility: hidden;
+}
+
 ::placeholder {
     text-transform: capitalize;
     color: #737373;
@@ -182,6 +211,7 @@
 }
 
 #add_new__btn {
+    margin: 20px 0;
     height: 35px;
     color: #fff;
     background: #F4511E;
