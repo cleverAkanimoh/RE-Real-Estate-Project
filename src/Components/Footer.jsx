@@ -1,3 +1,5 @@
+import { MdLocationPin, MdCall } from "react-icons/md"
+import logo from "../assets/logo1.png";
 import "../Stylesheets/footer.css";
 
 export default function () {
@@ -6,13 +8,13 @@ export default function () {
          <div id="footer__container">
             <div id="footer__logo__address__container">
                <div id="footer__logo">
-                  <img src="" alt="logo" />
+                  <img src={logo} alt="logo" />
                </div>
                <aside id="footer__address">
-                  <address id="footer__location">345 Faulconer Drive, Suite 4 • Charlottesville, CA, 12345</address>
+                  <address id="footer__location"><MdLocationPin />345 Faulconer Drive, Suite 4 • Charlottesville, CA, 12345</address>
                   <ul id="footer__contact_info">
-                     <li>(123) 456-7890</li>
-                     <li>(123) 456-7890</li>
+                     <li><MdCall/> (123) 456-7890</li>
+                     <li><MdCall/> (123) 456-7890</li>
                   </ul>
                   <ul id="footer__social_links">
                      <li>Social Media</li>
