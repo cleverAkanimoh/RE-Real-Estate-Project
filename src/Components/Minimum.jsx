@@ -1,4 +1,4 @@
-import { BsCurrencyDollar, BsBuilding, BsFlower1, BsLayerBackward } from "react-icons/bs";
+import { BsCurrencyDollar, BsBuilding, BsFlower1 } from "react-icons/bs";
 import { VscLayers, VscShield } from "react-icons/vsc";
 import { BiAdjust } from "react-icons/bi";
 import swimmingImage from "../assets/swimmingpool.png";
