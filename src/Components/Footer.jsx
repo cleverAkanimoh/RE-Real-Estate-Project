@@ -10,6 +10,7 @@ export default function () {
             <div id="footer__logo__address__container">
                <div id="footer__logo">
                   <img src={logo} alt="logo" />
+                  <h1>logo</h1>
                </div>
                <aside id="footer__address">
                   <address id="footer__location"><MdLocationPin className="colorme" />345 Faulconer Drive, Suite 4 • Charlottesville, CA, 12345</address>
@@ -26,7 +27,7 @@ export default function () {
                      <li><a href=""><FaInstagram className="colorme" /></a></li>
                      <li><a href=""><FaGooglePlus className="colorme" /></a></li>
                      <li><a href=""><FaPinterest className="colorme" /></a></li>
-                     <li><a href=""><FaWifi className="colorme" /></a></li>
+                     <li><a href=""><FaWifi className="colorme wifi" /></a></li>
                   </ul>
                </aside>
             </div>
@@ -38,7 +39,7 @@ export default function () {
                   <li>Privacy Policy</li>
                   <li>Disclaimer</li>
                </ul>
-               <div id="footer__copyright">Copyright © 2020 Minimumlivingcost. All rights reserved</div>
+               <div id="footer__copyright">Copyright © {2002} Minimumlivingcost. All rights reserved</div>
             </div>
          </div>
       </footer>

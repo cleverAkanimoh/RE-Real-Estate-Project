@@ -2,8 +2,30 @@ footer {
     width: 100%;
     display: grid;
     place-items: center;
+    padding: 3rem 0 2rem;
 }
 
 #footer__container {
     width: 89%;
+    border-top: 2px solid #F4511E;
+    
+}
+
+#footer__logo {
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 284px;
+    height: 250px;
+    background: #c2c2c22c;
+    margin: 1rem 0;
+}
+
+#footer__logo h1 {
+    position: absolute;
+    text-transform: uppercase;
+}
+
+.wifi {
+    rotate: 45deg;
 }
