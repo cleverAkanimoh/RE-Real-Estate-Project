@@ -1,6 +1,11 @@
+import { BsCurrencyDollar, BsBuilding, BsFlower1, BsLayerBackward } from "react-icons/bs";
 import { VscLayers, VscShield } from "react-icons/vsc";
-import { BsCircle, BsCurrencyDollar, BsBuilding, BsFlower1, BsLayerBackward } from "react-icons/bs";
+import { BiAdjust } from "react-icons/bi";
 import swimmingImage from "../assets/swimmingpool.png";
+import bedImage from "../assets/bedinplaces.png";
+import happyImage from "../assets/happy-guy.png";
+import cleaningImage from "../assets/cleaning.png";
+import roommatesImage from "../assets/roommates.png";
 import "../Stylesheets/mainContent.css";
 
 export default function () {
@@ -33,11 +38,21 @@ export default function () {
                      <p className="tag__line">Stay Safe!<br />Save Money!</p>
                   </div>
                   <div className="pay">
-                     <BsCircle className="icons moon" />
+                     <BiAdjust className="icons moon" />
                      <p className="tag__line">Pay for what<br/>you use!</p>
                   </div>
                </aside>
             </div>
+         </article>
+
+         <article id="flexibility__article" >
+            <div id="flexibility__images">
+               <img src={bedImage} alt="bed image" />
+               <img src={happyImage} alt="happy image" />
+               <img src={cleaningImage} alt="cleaning image" />
+               <img src={roommatesImage} alt="roommates image" />
+            </div>
+            <div id="flexibility__write_up"></div>
          </article>
       </section>
    )
