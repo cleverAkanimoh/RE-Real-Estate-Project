@@ -8,8 +8,8 @@ export default function () {
    return (
       <section id="main__content">
          <article id="minimum__article">
-            <h2 id="minimum__text">minimum living cost takes care of everything</h2>
-            <div id="underline"></div>
+            <h2 id="minimum__text"><span className="colorme">minimum living cost</span> takes care of everything</h2>
+            <div className="underline"></div>
             <div id="image__aside">
                <img src={swimmingImage} alt="swimming pool" id="swimming__image" />
                <aside id="aside">
@@ -49,7 +49,7 @@ export default function () {
                <h4 className="flexibility__h4 roommates">choose your own roommate</h4>
             </div>
             <div id="flexibility__write_up">
-               <h2 id="flexibility__h2"><span className="colorme">Flexibility</span> and options to suit your lifestyle.</h2>
+               <h2 id="flexibility__h2"><span className="colorme">Flexibility and options</span> to suit your lifestyle.</h2>
                <p id="flexibility__para">You need it? We got it. We make finding your next home easy, comfortable, and simple. From our happiness guarantee to our selective roommate finder option. We provide you the flexibility that you most desire.</p>
                <a href="#form" id="rooms__btn">search rooms</a>
             </div>

@@ -19,7 +19,7 @@
     font: bolder 1.05rem sans-serif;
 }
 
-#underline {
+.underline {
     height: 1px;
     width: 110px;
     background: #F4511E;
@@ -138,7 +138,7 @@
         font: bolder 1.15rem sans-serif;
     }
 
-    #underline {
+    .underline {
         width: 188px;
     }
 
@@ -168,7 +168,11 @@
 
     #flexibility__images {
         height: 450px;
-        width: 450px;
+        width: 400px;
+    }
+
+    #flexibility__write_up {
+        width: 420px;
     }
 
     .flexibility__h4 {
@@ -228,7 +232,7 @@
         translate: 0 !important;
     }
 
-    #underline {
+    .underline {
         translate: 18% 0;
         width: 245px;
     }
