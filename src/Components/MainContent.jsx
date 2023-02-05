@@ -39,6 +39,16 @@ export default function () {
                </aside>
             </div>
          </article>
+
+         <article id="flexibility__article" >
+            <div id="flexibility__images">
+               <img src={} alt="" />
+               <img src={} alt="" />
+               <img src={} alt="" />
+               <img src={} alt="" />
+            </div>
+            <div id="flexibility__write_up"></div>
+         </article>
       </section>
    )
 }
