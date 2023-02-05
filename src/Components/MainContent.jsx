@@ -11,7 +11,7 @@ import "../Stylesheets/mainContent.css";
 export default function () {
    return (
       <section id="main__content">
-         <article id="minimum__article">
+         {/* <article id="minimum__article">
             <h2 id="minimum__text">minimum living cost takes care of everything</h2>
             <div id="underline"></div>
             <div id="image__aside">
@@ -43,16 +43,20 @@ export default function () {
                   </div>
                </aside>
             </div>
-         </article>
+         </article> */}
 
          <article id="flexibility__article" >
             <div id="flexibility__images">
-               <img src={bedImage} alt="bed image" />
-               <img src={happyImage} alt="happy image" />
-               <img src={cleaningImage} alt="cleaning image" />
-               <img src={roommatesImage} alt="roommates image" />
+               <img src={bedImage} alt="bed image" id="bed__image" />
+               <img src={happyImage} alt="happy image" id="happy__image" />
+               <img src={cleaningImage} alt="cleaning image" id="cleaning__image" />
+               <img src={roommatesImage} alt="roommates image" id="roommates__image" />
             </div>
-            <div id="flexibility__write_up"></div>
+            <div id="flexibility__write_up">
+               <h2 id="flexibility__h2">Flexibility and options to suit your lifestyle.</h2>
+               <p id="flexibility__para">You need it? We got it. We make finding your next home easy, comfortable, and simple. From our happiness guarantee to our selective roommate finder option. We provide you the flexibility that you most desire.</p>
+               <button id="rooms__btn">search rooms</button>
+            </div>
          </article>
       </section>
    )
