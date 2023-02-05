@@ -112,3 +112,13 @@ footer {
         margin: 3rem 0;
     }
 }
+
+@media screen and (min-width: 1000px) {
+    #footer__navigation__copyright__container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 0.8rem;
+        border-top: 1px solid #7dbbfc33;
+    }
+}
