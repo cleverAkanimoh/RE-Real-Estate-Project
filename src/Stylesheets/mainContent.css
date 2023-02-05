@@ -477,8 +477,10 @@
 
 @media screen and (min-width: 1200px) {
 
-    #minimum__article, #property__article {
-        width: 1000px;
+    #minimum__article {
+        width: 1100px;
     }
-
+    #property__article {
+        width: 900px;
+    }
 }
