@@ -1,9 +1,5 @@
-import { BsCurrencyDollar, BsBuilding, BsFlower1, BsLayerBackward } from "react-icons/bs";
-import { VscLayers, VscShield } from "react-icons/vsc";
-import { BiAdjust } from "react-icons/bi";
-import Flexibility from "./Flexibility"
-import swimmingImage from "../assets/swimmingpool.png";
 import "../Stylesheets/mainContent.css";
+import Flexibility from "./Flexibility";
 import AddNewProperty from "./addNewProperty";
 import Minimum from "./Minimum";
 
