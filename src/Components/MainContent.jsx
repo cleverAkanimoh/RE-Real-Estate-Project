@@ -47,10 +47,10 @@ export default function () {
 
          <article id="flexibility__article" >
             <div id="flexibility__images">
-               <img src={} alt="" />
-               <img src={} alt="" />
-               <img src={} alt="" />
-               <img src={} alt="" />
+               <img src={bedImage} alt="" />
+               <img src={happyImage} alt="" />
+               <img src={cleaningImage} alt="" />
+               <img src={roommatesImage} alt="" />
             </div>
             <div id="flexibility__write_up"></div>
          </article>
