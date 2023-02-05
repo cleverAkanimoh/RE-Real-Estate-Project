@@ -1,7 +1,7 @@
 import { useState } from 'react';
+import { VscMenu } from "react-icons/vsc"
 import logo from '../assets/logo1.png';
 import "../Stylesheets/navBar.css";
-import { VscMenu } from "react-icons/vsc"
 
 export default function () {
     const [navList, setNavList] = useState(true);
