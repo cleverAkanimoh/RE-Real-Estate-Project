@@ -114,13 +114,14 @@
 #flexibility__para {
     font-weight: 400;
     font-size: 0.85rem;
-    margin: 18px 0;
+    line-height: 1.45;
+    margin: 15px 0;
 }
 
 #rooms__btn {
     text-decoration: none;
     border-radius: 0.3rem;
-    padding: 0.3rem;
+    padding: 0.4rem;
     background: #F4511E;
     color: #fff;
     font-size: 0.89rem;
