@@ -33,13 +33,13 @@ export default function () {
             </div>
             <div id="footer__navigation__copyright__container">
                <ul id="footer__navigation">
-                  <li>About us</li>
-                  <li>Contact us</li>
-                  <li>Help</li>
-                  <li>Privacy Policy</li>
-                  <li>Disclaimer</li>
+                  <li className="footer__nav _about">About us</li>
+                  <li className="footer__nav _contact">Contact us</li>
+                  <li className="footer__nav _help">Help</li>
+                  <li className="footer__nav _privacy">Privacy Policy</li>
+                  <li className="footer__nav _disclaimer">Disclaimer</li>
                </ul>
-               <div id="footer__copyright">Copyright © {2002} Minimumlivingcost. All rights reserved</div>
+               <div className="odd footer__copyright">Copyright © {2023} Minimumlivingcost. All rights reserved</div>
             </div>
          </div>
       </footer>
