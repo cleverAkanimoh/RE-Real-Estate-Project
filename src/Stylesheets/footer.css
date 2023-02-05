@@ -17,15 +17,20 @@ footer {
     color: #0A142F;
 }
 
-#footer__contact_info, #footer__social_links {
+#footer__contact_info,
+#footer__social_links {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 0.7rem 0;
+    margin: 1rem 0;
 }
 
-.odd{
-    color: hsla(224, 65%, 11%, 0.5);
+#footer__contact_info{
+    width: 290px;
+}
+
+.odd {
+    color: #0a142e80;
 }
 
 #footer__logo {
@@ -45,4 +50,61 @@ footer {
 
 .wifi {
     rotate: 45deg;
+}
+
+#footer__navigation {
+    margin: 1rem 0;
+}
+
+.footer__nav {
+    font: 500 0.99rem "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: fit-content;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 500px) {
+
+    #footer__container {
+        width: 450px;
+        transition: all 0.3s;
+    }
+
+    #footer__navigation {
+        display: flex;
+    }
+
+    .footer__nav {
+        padding: 0 0.3rem;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    #footer__container {
+        width: 85%;
+    }
+
+    #footer__logo__address__container {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #footer__contact_info,
+    #footer__social_links {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: 0.7rem 0;
+    }
+
+    #footer__logo {
+        width: 300px;
+        height: 35vh;
+        background: #c2c2c204;
+        margin: 0;
+    }
+
+    #footer__social_links {
+        margin: 3rem 0;
+    }
 }
