@@ -20,3 +20,24 @@ main {
   justify-content: center;
   width: 100%;
 }
+
+.colorme {
+  color: #F4511E;
+}
+
+li {
+  list-style: none;
+}
+
+.danger {
+  color: #ff0000;
+  background-color: hsla(0, 100%, 50%, 0.019);
+  border: 1px solid #ff0000;
+  border-radius: 0.4rem;
+  font-size: 0.89rem;
+  font-weight: 500;
+  width: 80%;
+  padding: 0.3rem 0.5rem;
+  text-transform: none;
+  text-align: center;
+}
