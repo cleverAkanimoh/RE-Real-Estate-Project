@@ -6,6 +6,10 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 button {
   cursor: pointer;
   border: 0;
