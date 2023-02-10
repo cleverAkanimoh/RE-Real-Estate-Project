@@ -4,11 +4,10 @@ import logo from '../assets/logo1.png';
 import "../Stylesheets/navBar.css";
 
 export default function () {
-    const [navList, setNavList] = useState(true);
+    const [navList, setNavList] = useState(false);
 
-    function navToggle() {
-        setNavList(prevState => !prevState)
-    }
+    const navToggle = () => setNavList(prevState => !prevState);
+
     return (
         <nav>
             <div id="nav__container">
@@ -18,14 +17,12 @@ export default function () {
                         <VscMenu id='menu__icon' />
                     </button>
                 </div>
-                {navList &&
-                    <ul id="navigation__unordered_list">
-                        <li className='home active'>home</li>
-                        <li className='landlord'>landlord</li>
-                        <li className='tenants'>tenants</li>
-                        <li className='contact'>contact us</li>
-                    </ul>
-                }
+                <ul id="navigation__unordered_list" className={navList ? "show" : "hidden"}>
+                    <li className='home active'>home</li>
+                    <li className='landlord'>landlord</li>
+                    <li className='tenants'>tenants</li>
+                    <li className='contact'>contact us</li>
+                </ul>
             </div>
         </nav>
     )

@@ -22,6 +22,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     width: 100%;
+    z-index: 9;
 }
 
 #logo__hamm__container img {
@@ -44,6 +45,16 @@ nav {
     height: 23px;
 }
 
+.hidden {
+    translate: 0 -150%;
+    opacity: 0;
+}
+
+.show {
+    translate: 0;
+    opacity: 1;
+}
+
 #navigation__unordered_list {
     display: block;
     padding: 1rem;
@@ -55,6 +66,7 @@ nav {
     color: #fff;
     font-size: 0.95rem;
     align-self: flex-start;
+    transition: all 0.45s;
 }
 
 #navigation__unordered_list li {
@@ -99,6 +111,7 @@ nav {
         color: #f0f0f0;
         font-size: 0.85rem;
         translate: 10% 20%;
+        transition: none;
     }
 
     #navigation__unordered_list li {
@@ -107,7 +120,11 @@ nav {
         width: 80px;
         display: grid;
         place-items: center;
-        transition: all 0.5s;
+    }
+
+    .hidden {
+        translate: 0;
+        opacity: 1;
     }
 
     .active {
