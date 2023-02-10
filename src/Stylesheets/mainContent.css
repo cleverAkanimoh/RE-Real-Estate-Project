@@ -55,9 +55,10 @@
 }
 
 .tag__line {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    width: 96%;
     font-weight: 600;
-    margin-left: 5px;
+    margin-left: 9px;
 }
 
 /* flexibility article */
