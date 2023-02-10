@@ -134,6 +134,7 @@
 /* form property */
 
 #property__h2 {
+    margin-top: 30px;
     text-align: center;
     font: 500 0.91rem sans-serif;
 }
