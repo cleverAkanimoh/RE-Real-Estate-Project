@@ -1,6 +1,7 @@
 import { useState } from "react";
 
 export default function () {
+    const [inputValue, setInputValue] = useState("");
     const [error, setError] = useState("");
     const handleFormSubmit = (e) => {
         const { name, value } = e.target;
